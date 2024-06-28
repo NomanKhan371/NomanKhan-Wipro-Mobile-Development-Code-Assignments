@@ -16,7 +16,7 @@ public class App {
              Statement st = con.createStatement()) {
 
             // Create
-            createEmployee(st, 5, "John", "Doe Updated", 44, "West");
+            // createEmployee(st, 5, "John", "Doe", 44, "West");
             // createEmployee(st, 7, "Anthony", "Joshua", 30, "East");  // Use unique ID 7
             // createEmployee(st, 8, "Tyson", "Fury", 34, "MiddleEast");  // Use unique ID 8
 
