@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Site with Animations</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="Assignment5.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MySite</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container my-5">
+    <div id="home" class="section">
+      <h1 class="animate_animated animatebounce animate_infinite">Welcome to My Site</h1>
+      <p class="lead">This is a simple, colorful, and responsive HTML site.</p>
+    </div>
+
+    <div id="about" class="section">
+      <h2 class="animate_animated animatepulse animate_infinite">About Us</h2>
+      <p class="lead">We are a team of passionate developers creating beautiful websites.</p>
+    </div>
+
+    <div id="services" class="section">
+      <h2 class="animate_animated animateflash animate_infinite">Our Services</h2>
+      <table class="table table-striped animate_animated animate_slideInLeft">
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Web Development</td>
+            <td>Creating responsive and modern websites</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td>SEO</td>
+            <td>Improving website ranking on search engines</td>
+            <td>$500</td>
+          </tr>
+          <tr>
+            <td>Marketing</td>
+            <td>Developing marketing strategies</td>
+            <td>$700</td>
+          </tr>
+          <tr>
+            <td>Mobile Development</td>
+            <td>Developing Mobile Applications</td>
+            <td>$800</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="contact" class="section">
+      <h2 class="animate_animated animateshakeY animate_infinite">Contact Us</h2>
+      <form class="animate_animated animate_zoomIn">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

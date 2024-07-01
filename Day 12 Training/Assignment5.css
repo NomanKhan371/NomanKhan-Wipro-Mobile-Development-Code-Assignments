@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #b19cd9 0%, #e6e6fa 100%);
+    color: #333;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  table:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hover effect on sections */
+}
+  
+  h1, h2 {
+    color: #9370DB; /* Medium Purple */
+    text-shadow: 2px 2px #DDA0DD; /* Plum */
+  }
+  
+  .navbar {
+    background-color: #8A2BE2; /* Blue Violet */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    color: #9370DB !important;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #9370DB !important;
+    font-weight: bold;
+  }
+  .navbar-brand:hover, .nav-link:hover {
+    color: #7B68EE !important; /* Medium Slate Blue */
+}
+
+  
+  .table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table th, .table td {
+    border-top: none;
+    border-bottom: 1px solid #eee;
+  }
+  .table tbody tr:hover {
+    background-color: #f2f2f2; /* Hover effect on table rows */
+}
+
+  label {
+    margin-top: 20px;
+    font-size: large;
+  }
+  form .btn-primary {
+    background-color: #9370DB; /* Medium Purple */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0px 0px 20px 30px;
+  }
+  form:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hover effect on sections */
+}
+  form .btn-primary:hover {
+    background-color: #7B68EE; /* Medium Slate Blue */
+    
+  }
+  
+  form .form-group input,
+  form .form-group textarea {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .form-group{
+    margin: 30px 30px;
+  }
+  .lead {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }

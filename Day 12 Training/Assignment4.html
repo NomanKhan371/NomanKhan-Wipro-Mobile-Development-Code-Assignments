@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Responsive Page</title>
+    <link rel="stylesheet" href="Assignment4.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Noman's Site</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to Noman's Site</h1>
+            <p>Your gateway to amazing experiences.</p>
+        </section>
+        <br><br><br>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and modern websites.</p>
+                </div>
+                <div class="service">
+                    <h3>SEO</h3>
+                    <p>Improving website ranking on search engines.</p>
+                </div>
+                <div class="service">
+                    <h3>Marketing</h3>
+                    <p>Developing marketing strategies.</p>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="services">
+                <div class="service">
+                    <h3>Android Development</h3>
+                    <p>Creating modern Mobile Android Applications.</p>
+                </div>
+                <div class="service">
+                    <h3>IOS Development</h3>
+                    <p>Creating Apple IOS Swift Applications.</p>
+                </div>
+                <div class="service">
+                    <h3>Cloud Computing</h3>
+                    <p>Cloud services for Computing</p>
+                </div>
+            </div>
+        </section>
+        <br><br><br><br>
+        <section id="product">
+            <h2>Products Table</h2>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Name">Product 1</td>
+                        <td data-label="Price">$10</td>
+                        <td data-label="Description">Description for product 1</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">Product 2</td>
+                        <td data-label="Price">$20</td>
+                        <td data-label="Description">Description for product 2</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">Product 3</td>
+                        <td data-label="Price">$30</td>
+                        <td data-label="Description">Description for product 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br><br><br><br>
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Animated Responsive Page</p>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

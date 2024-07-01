@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 2 simple Page</title>
+<style>
+table, th, td{
+    border: 1px solid white;
+    
+  }
+.center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+</style>
+</head>
+<body style="background-color: black;color: white;">
+  <h1>Welcome!</h1>
+
+  <section style="border: 1px solid white; text-align: center;" id="about">
+    <h1>Section Tag</h1>
+    <h2>About This Page</h2>
+    <p>This is a sample page demonstrating basic HTML elements and structure. 
+      It includes headings, paragraphs, tables, and forms.</p>
+  </section>
+
+  <article style="border: 1px solid white; text-align: center;">
+    <h2>Article Tag</h2>
+    <p>Here are some random facts to entertain you!</p>
+    <ol style="text-align: center;">
+      <li >The population of the Earth is about 8 billion people.</li>
+      <li>The world's quietest room is located at Microsoft and is anechoic, meaning it absorbs almost all sound.</li>
+    </ol>
+  </article>
+ 
+  <div style="border: 1px solid white;">
+  <h2 style="text-align: center;">Product Information</h2>
+  <table class="center">
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Stock</th>
+    </tr>
+    <tr>
+      <td>Coffee</td>
+      <td>$3.50</td>
+      <td>In Stock</td>
+    </tr>
+    <tr>
+      <td>Tea</td>
+      <td>$2.00</td>
+      <td>Low</td>
+    </tr>
+  </table>
+</div>
+
+<div class="container" style="border: 1px solid white;">
+  <h2>Contact Us</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <button type="submit">Submit</button> 
+  </form>
+</div>
+</body>
+</html>
